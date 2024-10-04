@@ -13,19 +13,20 @@
 
 <body class=" bg-black text-white">
   <div class=" container mx-auto flex my-4">
-    <div class="first w-[70%] sticky top-0">
-      <div class="logo invert ">
-        <svg viewBox="0 0 24 24" aria-hidden="true"
-          class="w-8 m-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
-          <g>
-            <path
-              d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
-            </path>
-          </g>
-        </svg>
-
-      </div>
-      <div class="sidebar font-bold flex justify-end">
+    <div class="first w-[70%] ">
+      
+      <div class="sidebar font-bold sticky top-0 flex flex-col md:items-end">
+        <div class="logo invert self-start mx-2 md:mx-16 ">
+          <svg viewBox="0 0 24 24" aria-hidden="true"
+            class="w-8 m-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+            <g>
+              <path
+                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+              </path>
+            </g>
+          </svg>
+  
+        </div>
         <ul class="flex flex-col  text-2xl">
           <li
             class="flex md:justify-start items-center gap-3 justify-center  mr-4 md:w-fit  hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
@@ -60,7 +61,7 @@
         </ul>
       </div>
     </div>
-    <div class="second w-full border border-x-gray-500 border-y-black">
+    <div class="second w-full border border-x-gray-700 border-y-black">
       <div class="top flex p-2 sticky ">
         <div class="absolute w-16 h-1 rounded-full bg-blue-500 bottom-0 left-[19%] z-10"></div>
         <div class="left w-1/2 flex justify-center cursor-pointer font-bold text-lg">For You</div>
@@ -113,17 +114,17 @@
         <div class="post">
           <div class="flex">
                 <div class="image m-4">
-                  <img class="w-8" src="https://pbs.twimg.com/profile_images/1724504100136439808/J8k8HnSD_bigger.png" alt="">
+                  <img class="w-16" src="https://pbs.twimg.com/profile_images/1724504100136439808/J8k8HnSD_bigger.png" alt="">
               </div>
               <div class="content my-3">
-                  <span class="font-bold hover:underline cursor-pointer text-white"> non aesthetic
-                      things</span> <span class="text-gray-500">@CodeMeme · 6h </span>
-                  <div>This is amazing coding meme</div>
-                  <div class="postimg m-4 ml-0">
-                      <img class="rounded-xl w-full"
-                          src="https://s3.amazonaws.com/rails-camp-tutorials/blog/programming+memes/works-doesnt-work.jpg"
-                          alt="">
-                  </div>
+                  <span class="font-bold hover:underline cursor-pointer text-white"> Elon Musk</span> <span class="text-gray-500">@ElonMusk · 6h </span>
+                  <div>I spent $44 billion for this app and now Lizard boy just
+                    decided to hit copy and paste.
+
+                    It’s personal now.
+
+                    See you in the cage, Zuck.</div>
+                  
                   <div class="icons flex justify-between mx-4 my-4 text-sm text-gray-600">
                       <div
                           class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
@@ -199,17 +200,17 @@
         <div class="post">
           <div class="flex">
                 <div class="image m-4">
-                  <img class="w-8" src="https://pbs.twimg.com/profile_images/1724504100136439808/J8k8HnSD_bigger.png" alt="">
+                  <img class="w-16" src="https://pbs.twimg.com/profile_images/1522060025854066688/IZs_lylH_bigger.png"
+                  alt="">
               </div>
               <div class="content my-3">
                   <span class="font-bold hover:underline cursor-pointer text-white"> non aesthetic
                       things</span> <span class="text-gray-500">@CodeMeme · 6h </span>
                   <div>This is amazing coding meme</div>
                   <div class="postimg m-4 ml-0">
-                      <img class="rounded-xl w-full"
-                          src="https://s3.amazonaws.com/rails-camp-tutorials/blog/programming+memes/works-doesnt-work.jpg"
-                          alt="">
-                  </div>
+                                <img class="rounded-xl"
+                                    src="https://pbs.twimg.com/media/GEGqnodacAAoyCO?format=jpg&name=900x900" alt="">
+                            </div>
                   <div class="icons flex justify-between mx-4 my-4 text-sm text-gray-600">
                       <div
                           class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
@@ -284,11 +285,11 @@
         </div>
       </div>
     </div>
-    <div class="third sticky top-0 w-full hidden md:block">
-      <div class="search m-1 ">
+    <div class="third  w-full hidden md:block">
+      <div class="search sticky top-0 m-1 ">
         <input type="text" placeholder="search" class="w-1/2 bg-gray-900 px-5 rounded-full py-2 ">
       </div>
-      <div class="whats m-3 w-1/2 bg-gray-900 p-5 rounded-xl">
+      <div class="whats sticky top-[7vh] m-3 w-1/2 bg-gray-900 p-5 rounded-xl">
         <h1 class="text-2xl font-bold ">Whats Happening</h1>
         <div class="item my-1 p-2 px-4 hover:bg-gray-800 cursor-pointer">
           <div class=" text-sm text-slate-200">Trending in India</div>
@@ -311,7 +312,7 @@
           <div class=" text-sm text-slate-100">40K Posts</div>
         </div>
       </div>
-      <div class="who m-3 w-1/2 bg-gray-900 p-5 rounded-xl">
+      <div class="who sticky top-[67vh] m-3 w-1/2 bg-gray-900 p-5 rounded-xl">
         <h1 class="text-2xl font-bold ">Who to Follow</h1>
         <div class="item my-1 px-4 space-y-2 ">
           <div class="font-bold text-xl cursor-pointer">Virat Kohli</div>

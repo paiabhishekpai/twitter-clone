@@ -608,6 +608,54 @@ video {
   top: 0px;
 }
 
+.top-\[50vh\] {
+  top: 50vh;
+}
+
+.top-\[40vh\] {
+  top: 40vh;
+}
+
+.top-\[60vh\] {
+  top: 60vh;
+}
+
+.top-\[\] {
+  top: ;
+}
+
+.top-\[90vh\] {
+  top: 90vh;
+}
+
+.top-\[10vh\] {
+  top: 10vh;
+}
+
+.top-\[5vh\] {
+  top: 5vh;
+}
+
+.top-\[7vh\] {
+  top: 7vh;
+}
+
+.top-\[0vh\] {
+  top: 0vh;
+}
+
+.top-\[70vh\] {
+  top: 70vh;
+}
+
+.top-\[77vh\] {
+  top: 77vh;
+}
+
+.top-\[67vh\] {
+  top: 67vh;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -661,6 +709,11 @@ video {
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .ml-0 {
@@ -719,6 +772,10 @@ video {
   width: 2.5rem;
 }
 
+.w-1 {
+  width: 0.25rem;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -733,6 +790,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-end {
@@ -759,6 +820,10 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+
+.self-start {
+  align-self: flex-start;
 }
 
 .rounded-full {
@@ -789,6 +854,18 @@ video {
   --tw-border-opacity: 1;
   border-left-color: rgb(107 114 128 / var(--tw-border-opacity));
   border-right-color: rgb(107 114 128 / var(--tw-border-opacity));
+}
+
+.border-x-gray-600 {
+  --tw-border-opacity: 1;
+  border-left-color: rgb(75 85 99 / var(--tw-border-opacity));
+  border-right-color: rgb(75 85 99 / var(--tw-border-opacity));
+}
+
+.border-x-gray-700 {
+  --tw-border-opacity: 1;
+  border-left-color: rgb(55 65 81 / var(--tw-border-opacity));
+  border-right-color: rgb(55 65 81 / var(--tw-border-opacity));
 }
 
 .bg-\[\#1d9bf0\] {
@@ -969,6 +1046,21 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:mx-16 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .md\:mx-1 {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+  }
+
+  .md\:mx-20 {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -980,6 +1072,10 @@ video {
 
   .md\:w-\[70\%\] {
     width: 70%;
+  }
+
+  .md\:items-end {
+    align-items: flex-end;
   }
 
   .md\:justify-start {
